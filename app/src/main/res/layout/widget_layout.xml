@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.userinsta.calculatrice.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/TextViewEcran"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button android:id="@+id/button1"
+            android:text="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button android:id="@+id/button2"
+            android:text="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button android:id="@+id/button3"
+            android:text="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button android:id="@+id/buttonPLus"
+            android:text="+"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/button4"
+            android:text="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/button5"
+            android:text="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/button6"
+            android:text="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/buttonMoins"
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/button7"
+            android:text="7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/button8"
+            android:text="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/button9"
+            android:text="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/buttonMultiplier"
+            android:text="*"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/button0"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/buttonPoint"
+            android:text="."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/buttonClear"
+            android:text="C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/buttonDiviser"
+            android:text="/"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonEgale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="=" />
+
+</LinearLayout>
